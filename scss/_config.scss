@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@font-face{
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/OpenSansCondensed-LightItalic.eot');
+    src: url('../fonts/OpenSansCondensed-LightItalic.ttf') format('truetype'), url('../fonts/OpenSansCondensed-LightItalic.woff') format('woff'),
+    url('../fonts/OpenSansCondensed-LightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+$PTSans: 'PT Sans', sans-serif;
+$line-height: 22px;
+$light-gray: #dcdcdc;
+$dark-gray: #767676;
+$dark:#444444;
+$gray: #929292;
+$white: white;
+$sliderBg:#f8f8f8;

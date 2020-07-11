@@ -1,0 +1,155 @@
+@media screen and (min-width:980px) {
+    header {
+        height: 0.15*100vw;
+        max-height: 250px;
+        .logo-wrapper {
+            left: 15%;
+            max-width: 300px;
+            .logo {
+                width: 100px;
+                height: 100px;
+            }
+            .company-title{
+                height: 100px;
+                .name{
+                    font-size: 24px;
+                }
+            }
+        }
+        .contacts{
+            right: 15%;
+        }
+    }
+
+    .menu-item{
+        padding: 0 18px;
+        .menu{
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .slider{
+        height: 0.29*100vw;
+        .navigation{
+            width: 30px;
+            height: 60px;
+        }
+    }
+
+    .catalog{
+        .left-block{
+            width: 24%;
+        }
+        .center-block{
+            width: 76%;
+    }
+}
+
+@media screen and (max-width:979px) and (min-width:500px) {
+    header {
+        .logo-wrapper {
+            left: 10%;
+            .logo {
+                width: 60px;
+                height: 60px;
+            }
+            .company-title{
+                height: 60px;
+                padding: 0 10px;
+                .name{
+                    font-size: 20px;
+                }
+            }
+        }
+        .contacts{
+            right: 10%;
+            .phone{
+                font-size: 22px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .menu-item{
+        padding: 0 14px;
+        .menu{
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+    
+    .slider{
+        height: 0.4*100vw;
+        .navigation{
+            width: 25px;
+            height: 50px;
+        }
+    }
+}
+@media screen and (max-width:499px) {
+    header {
+        flex-direction: column;
+        .logo-wrapper {
+            width: 100%;
+            top:0;
+            .logo {
+                width: 60px;
+                height: 60px;
+            }
+            .company-title{
+                height: 60px;
+                padding: 0 10px;
+                .name{
+                    font-size: 20px;
+                }
+            }
+        }
+        .contacts{
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            .phone{
+                font-size: 20px;
+                line-height: 22px;
+            }
+            .feedback{
+                margin-top: 0;
+            }
+        }
+        .menu-icon{
+            display: block;
+        }
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        z-index: 40;
+       ul{
+           flex-direction: column;
+           .menu-item{
+            padding-left: 3px;
+            border-right: none;
+            border-left: 1px solid $white;
+            }
+            .menu-item+.menu-item{
+                margin-top: 5px;
+            }     
+        }
+    
+    }
+
+    .slider{
+        height: 0.49*100vw;
+        .navigation{
+            width: 20px;
+            height: 40px;
+        }
+    }
+}
